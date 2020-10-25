@@ -1,13 +1,13 @@
 import React from "react";
 import Home from "./containers/home";
 import "./styles.css";
-import header from "./components/header";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 export default function App() {
   return (
     <div className="App">
-      <header />
-      <Home />
+      <Header />
     </div>
   );
 }

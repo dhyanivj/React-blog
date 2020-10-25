@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.headermenu a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+.headermenu a:hover {
+  color: black;
+}
